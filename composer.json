@@ -1,33 +1,41 @@
 {
-    "name": "divineomega/is_offensive",
-    "description": "This PHP package provides an `is_offensive` helper function. Passing a string to `is_offensive` will return a boolean telling you if it contains offensive words.",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Jordan Hall",
-            "email": "jordan@hall05.co.uk"
-        }
-    ],
-    "require-dev": {
-        "phpunit/phpunit": "^7.0 || ^8.0",
-        "php-coveralls/php-coveralls": "^2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\IsOffensive\\": "src/"
-        },
-        "files": [
-            "src/IsOffensiveFunction.php"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "DivineOmega\\IsOffensive\\Tests\\": "tests/Unit/"
-        }
-    },
-    "license": "LGPL-3.0-only",
-    "require": {
-        "php": ">=7.1",
-        "snipe/banbuilder": "^2.2.5"
+  "name": "jord-jd/is_offensive",
+  "description": "This PHP package provides an `is_offensive` helper function. Passing a string to `is_offensive` will return a boolean telling you if it contains offensive words.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Jordan Hall",
+      "email": "jordan@hall05.co.uk"
     }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^7.0 || ^8.0",
+    "php-coveralls/php-coveralls": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\IsOffensive\\": "src/"
+    },
+    "files": [
+      "src/IsOffensiveFunction.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DivineOmega\\IsOffensive\\Tests\\": "tests/Unit/"
+    }
+  },
+  "license": "LGPL-3.0-only",
+  "require": {
+    "php": ">=7.1",
+    "snipe/banbuilder": "^2.2.5"
+  },
+  "replace": {
+    "jord-jd/is_offensive": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  }
 }

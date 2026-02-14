@@ -1,8 +1,8 @@
 
 # 🤬🤭 Is Offensive Helper Function
 
-[![Build Status](https://travis-ci.org/DivineOmega/is_offensive.svg?branch=master)](https://travis-ci.org/DivineOmega/is_offensive)
-[![Coverage Status](https://coveralls.io/repos/github/DivineOmega/is_offensive/badge.svg?branch=master)](https://coveralls.io/github/DivineOmega/is_offensive?branch=master)
+[![Build Status](https://travis-ci.org/Jord-JD/is_offensive.svg?branch=master)](https://travis-ci.org/Jord-JD/is_offensive)
+[![Coverage Status](https://coveralls.io/repos/github/Jord-JD/is_offensive/badge.svg?branch=master)](https://coveralls.io/github/Jord-JD/is_offensive?branch=master)
 [![StyleCI](https://styleci.io/repos/119539842/shield?branch=master)](https://styleci.io/repos/119539842)
 
 
@@ -13,7 +13,7 @@ This PHP package provides an `is_offensive` helper function. Passing a string to
 The `is_offensive` package can be easily installed using Composer. Just run the following command from the root of your project.
 
 ```
-composer require "divineomega/is_offensive"
+composer require "jord-jd/is_offensive"
 ```
 
 If you have never used the Composer dependency manager before, head to the [Composer website](https://getcomposer.org/) for more information on how to get started.
