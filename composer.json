@@ -31,11 +31,11 @@
     "snipe/banbuilder": "^2.2.5"
   },
   "replace": {
-    "jord-jd/is_offensive": "self.version"
+    "divineomega/is_offensive": "self.version"
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "3.0-dev"
+      "dev-master": "4.0-dev"
     }
   }
 }
