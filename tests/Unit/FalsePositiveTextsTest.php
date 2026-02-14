@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\IsOffensive\Tests;
+namespace JordJD\IsOffensive\Tests;
 
 use PHPUnit\Framework\TestCase;
 

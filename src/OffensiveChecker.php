@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\IsOffensive;
+namespace JordJD\IsOffensive;
 
 use Snipe\BanBuilder\CensorWords;
 

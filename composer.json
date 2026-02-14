@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "DivineOmega\\IsOffensive\\": "src/"
+      "JordJD\\IsOffensive\\": "src/"
     },
     "files": [
       "src/IsOffensiveFunction.php"
@@ -22,7 +22,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "DivineOmega\\IsOffensive\\Tests\\": "tests/Unit/"
+      "JordJD\\IsOffensive\\Tests\\": "tests/Unit/"
     }
   },
   "license": "LGPL-3.0-only",
@@ -35,7 +35,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "4.0-dev"
+      "dev-master": "5.0-dev"
     }
   }
 }

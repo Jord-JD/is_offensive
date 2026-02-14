@@ -1,6 +1,6 @@
 <?php
 
-use DivineOmega\IsOffensive\OffensiveChecker;
+use JordJD\IsOffensive\OffensiveChecker;
 
 if (!function_exists('is_offensive')) {
     function is_offensive($text)

@@ -1,8 +1,8 @@
 <?php
 
-namespace DivineOmega\IsOffensive\Tests;
+namespace JordJD\IsOffensive\Tests;
 
-use DivineOmega\IsOffensive\OffensiveChecker;
+use JordJD\IsOffensive\OffensiveChecker;
 use PHPUnit\Framework\TestCase;
 
 class CustomListsTest extends TestCase
